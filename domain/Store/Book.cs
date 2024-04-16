@@ -2,8 +2,8 @@
 
 public class Book
 {
-    public Int Id { get; }
-  public string Title { get; }
+    public int Id { get; }
+    public string Title { get; }
 
     public Book (int id, string title)
     {
