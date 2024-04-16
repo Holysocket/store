@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Memory", "infrastructure\Store.Memory\Store.Memory.csproj", "{5E0199A1-D789-4E33-9EAA-286B2DC1CB8F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AB4303E7-B11B-49F8-AC1B-A4F7A1774EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Web", "Presintation\Store.Web\Store.Web.csproj", "{FFA1DD6A-A982-4922-99A3-152615209F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{5E0199A1-D789-4E33-9EAA-286B2DC1CB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E0199A1-D789-4E33-9EAA-286B2DC1CB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E0199A1-D789-4E33-9EAA-286B2DC1CB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA1DD6A-A982-4922-99A3-152615209F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA1DD6A-A982-4922-99A3-152615209F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA1DD6A-A982-4922-99A3-152615209F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA1DD6A-A982-4922-99A3-152615209F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E2A6E175-66FA-450C-A5CB-D9B89891EAA7} = {06AC844A-F591-4F36-AFD4-18B88E49DE10}
 		{5E0199A1-D789-4E33-9EAA-286B2DC1CB8F} = {221B9FAF-B445-4965-9616-A37BA0F1871D}
+		{FFA1DD6A-A982-4922-99A3-152615209F5D} = {AB4303E7-B11B-49F8-AC1B-A4F7A1774EAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6307986-5F1C-4AE9-AE36-5FDB06C95728}
